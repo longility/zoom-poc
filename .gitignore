@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,reactnative
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,reactnative
+# Created by https://www.toptal.com/developers/gitignore/api/xcode,reactnative,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=xcode,reactnative,macos
 
 ### macOS ###
 # General
@@ -260,4 +260,15 @@ xcuserdata/
 
 # Directories potentially created on remote AFP share
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,reactnative
+### Xcode ###
+
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.toptal.com/developers/gitignore/api/xcode,reactnative,macos
